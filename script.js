@@ -1,4 +1,4 @@
-function getComputerInput() {
+function getComputerChoice() {
 
     let computerInput = Math.floor(Math.random() * 3)
     if (computerInput === 0) {
@@ -10,4 +10,12 @@ function getComputerInput() {
     }
 }
 
-console.log(getComputerInput())
+let humanChoice = prompt("rock, paper, or scissors")
+console.log(humanChoice)
+
+let computerChoice = getComputerChoice()
+console.log(computerChoice)
+
+humanScore = 0;
+computerScore = 0;
+
